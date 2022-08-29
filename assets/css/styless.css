@@ -1,0 +1,559 @@
+body {
+    margin: 0px;
+	display: contents;
+}
+#contato_topo {
+    width: 100%;
+    height: 35px;
+    left: 0px;
+    top: 0px;
+    background: #03341C;
+    display: flex;
+    justify-content: center;
+	color: #fff;
+}
+
+.txt_ct_menu{
+    color: #FFB31A;
+    font-weight:400;
+
+}
+.icon{
+    
+    left: 45.42%;
+    right: 53.82%;
+    top: 0.21%;
+    bottom: 99.37%;
+}
+
+.logo{
+width: auto;    
+height: 36px;
+margin-left:30%;    
+}
+
+li {
+  float: left;
+	margin-right: 1%;
+	    margin-top: 11px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /*background-color: #333;*/
+}
+
+nav {
+    height: 87px;
+    left: 0px;
+    top: 35px;
+    background: #006E3E;
+    display: flex;
+    align-content: center;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    color: #fff;
+    text-decoration: none;
+}
+.nav_link {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+
+.logomarca{
+	margin-right: 6%;
+	margin-top: 7px;
+}
+
+#conteudo0 {
+    background-image: url("../imgs/fundo.png");
+    height: 81vh;
+    margin-top: 9%;
+    background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.topoSite {
+    position:  fixed;
+    order: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.btnCotacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 0px;
+    gap: 7px;
+    /* position: absolute; */
+    width: 242px;
+    height: 52px;
+    left: 212px;
+    top: 672px;
+    background: #33794A;
+    box-shadow: 0px 5px 10px rgb(0 0 0 / 15%);
+    border-radius: 132.312px;
+    text-decoration: solid;
+    /* color: #fff; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.0721px;
+    line-height: 150%;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.btnCotacao:hover {
+    background: #32bd60;
+}
+
+#Ct0_coluna1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 167%;
+    color: #3B454F;
+    width: 50%;
+    float: left;
+    padding-top: 0%;
+    padding-left: 9%;
+}
+
+#frase2Cont1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+	margin-top: 24%;
+}
+
+.nav_link:hover {
+    padding: 8px 8px;  
+    border: 1px solid #FFD012;
+    border-radius: 4px;   
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+transition-timing-function:ease-in ;
+}
+
+
+#conteudo2 {
+    background-color: #F8F8F8;
+    height: 100vh;
+    /* display: flex; */
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top:1% ;
+}
+
+
+
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    gap: 16px;
+    /* position: absolute; */
+    width: 328px;
+    height: 287px;
+    left: 212px;
+    top: 1764px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 10px rgb(0 0 0 / 15%);
+    border-radius: 8px;
+    margin-right: 2%;
+    }
+
+    #row-card {
+        display: flex;
+        align-items: center;
+        padding: 10%;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        padding-right: 8%;
+    }
+
+.TituloCardCt02 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #33794A;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .TextoCardCt02 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: center;
+        color: #737D86;
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+    .BtnCardCt022 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: baseline;
+        padding: 10px 24px;
+        gap: 8px;
+        width: 95.31px;
+        /* height: 36.03px; */
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), #60C742;
+        border-radius: 90.8976px;
+        flex: none;
+        flex-grow: 0;
+        color: #fff;
+        align-content: center;
+        flex-wrap: nowrap;
+        order: 3;
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 150%;
+text-decoration-line: underline;
+
+/* Seguros Promo 2 */
+
+color: #33794A;
+
+    }
+    .BtnCardCt022:hover {
+        background: #9ae584;
+    }
+
+#frase1ct02 {
+
+    left: 533px;
+    top: 1600px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    /* line-height: 150%; */
+    text-align: center;
+    color: #3B454F;
+}
+
+
+#frase1ct03 {
+
+    left: 520px;
+    top: 1680px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #3B454F;
+}
+    #BtnCtaCt02 {
+        display: flex;
+        justify-content: center;
+    }
+#Ct3_Titulo {
+        display: flex;
+        justify-content: center;
+        padding-top: 5%;
+        margin-bottom: 5%;
+    }
+    img#imgCont03 {
+        width: 499px;
+        height: 262px;
+        left: 790px;
+        top: 2391px;
+        float: right;
+    }
+    #Ct3_coluna1 {
+        width: 50%;
+        float: left;
+    }
+    #TituloCont3 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 150%;
+        text-align: center;
+        color: #3B454F;
+    }
+details {
+    display: block; 
+    width: auto;
+    margin: 10px 0;
+    border-bottom: 1px #CCD1D6;
+    border-style: solid;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+  }
+  
+  details p { 
+    padding-left: 30px;
+  }
+  
+  summary {
+    display: flex; 
+    padding: 5px;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  summary::-webkit-details-marker {
+     display: none;
+  }
+  
+  summary:after {
+     content: "\2304";
+     font-size: 20px;
+     font-weight: bold;
+     margin: 0 15px;
+     padding: 0;
+     width: 20px;
+     height: 23px;
+     text-align: center;
+     color: #60C742;
+  }
+  
+  details[open] summary:after {
+    content: "\2303";
+  }
+
+#Ct3_coluna3 {
+    order: 3;
+    /* display: flex; */
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 29%;
+    margin-left: 44%;
+}
+
+a.btnCotacaoCT3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 0px;
+    gap: 7px;
+    /* position: absolute; */
+    width: 242px;
+    height: 52px;
+    left: 212px;
+    top: 672px;
+    background: #33794A;
+    box-shadow: 0px 5px 10px rgb(0 0 0 / 15%);
+    border-radius: 132.312px;
+    text-decoration: solid;
+    /* color: #fff; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.0721px;
+    line-height: 150%;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.accordions{
+    width:600px;
+    margin:0 auto;
+    border:0px solid #ccc;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #3B454F;
+}
+
+#conteudo4 {
+    background-image: url('../imgs/fundo_cont03.png');
+    height: 100vh;
+	margin-top: 39px;
+}
+
+
+    #tituloCont04 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 124%;
+        text-align: center;
+        color: #3B454F;
+    }
+    div#Ct4_coluna1 {
+        float: left;
+        width: 50%;
+        padding-top: 4%;
+        padding-left: 14%;
+    }
+
+    c2.texto02ct04 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 150%;
+        text-align: center;
+        color: #3B454F;
+    }
+
+#fone_ct04 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 150%;
+        text-align: center;
+        color: #83AF38;
+    }
+
+    #IconeTelefoneCt04 {
+        width: 23px;
+        height: 23px;
+    }
+    div#ContatoCt04 {
+        margin-top: 4%;
+		text-align: center;
+    }
+    .CtaCont04 {
+        display: flex;
+        /* flex-direction: row; */
+        justify-content: center;
+        align-items: center;
+        padding: 3px 3px;
+        gap: 7px;
+        width: 349.62px;
+        height: 41px;
+        /* left: 974px; */
+        /* top: 3112px; */
+        background: #33794A;
+        box-shadow: 0px 5px 10px rgb(0 0 0 / 15%);
+        border-radius: 87.8735px;
+        text-decoration: none;
+        color: #fff;
+        margin-top: 2%;
+    }
+
+    #TextoCtaCont04 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        text-align: center;
+        color: #FFFFFF;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    #divCtaCont04 {
+        display: flex;
+        justify-content: center;
+    } 
+         #texto03Cont04 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        text-align: center;
+        color: #3B454F;
+        order: 4;
+    } 
+#Ct4_coluna2 {
+    float: right;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5%;
+}
+#DivTexto03Cont04 {
+    text-align: center;
+    margin-top: 80%;
+}
+
+#BtnCtaCont04:hover {
+    background: #32bd60;
+}
+
+@media (max-width: 412px){
+#contato_topo {
+    display: none;
+}
+div#conteudo0 {
+    height: 96vh;
+	background-position-y: top;
+    background-position-x: center;
+}	
+nav {
+    height: 56.47px;
+}
+	h2 {
+    width: 10em;
+}
+#Ct0_coluna1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+font-size: 24px;
+    line-height: 170%;
+    color: #3B454F;
+    width: 100%;
+    float: left;
+    padding-top: 32%;
+    padding-left: 3%;
+}
+	#Ct0_coluna2 {
+    display: none;
+}
+#frase2Cont1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-top: 32%;
+    margin-bottom: 76%;
+}	
+}
